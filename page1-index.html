@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .main {
+            background-image: url('images/img2.jpeg'); /* Change 'path_to_your_image.jpg' to the path of your image */
+            background-size: cover;
+            background-position: center;
+            color: rgb(165, 157, 157); /* Adjust text color for better visibility */
+        }
+        .active {
+            background-color: #0a0a0a;
+            border-radius: 20px; /* Default border radius */
+          }
+          
+          
+        .footer {
+            background-color:rgb(2, 49, 88);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    
+        <nav>
+            <div class="icon">
+                <h2 class="logo">FitZone</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a class="active" href="page1-index.html">Home</a></li>
+                    <li><a href="page2-about.html">About </a></li>
+                    <li><a href="page3-blog.html">Blog</a></li>
+                    <li><a href="page4-service.html">Service</a></li>
+                    <li><a href="page5-contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            
+
+        </nav>
+        <div class="main">
+        <div class="content">
+            <h1>Wellcome<br><span>To</span> <br>FitZone</h1>
+            <p class="par">Be peaceful in mind and healthy in Body!</p>
+
+            <a href="#" class="cn">JOIN US</a>
+
+            <div class="form">
+                <h2>Join With Us</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password" name="password" placeholder="Enter Password Here">
+                <button class="btnn">Join Us</button>
+
+                <p class="link">Don't have an account<br>
+                <a href="#">Sign up here</a></p><br>
+                
+
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <footer class="footer">
+        <p>© 2024  Smashing Websites Ltd.  | Noemi Bucur</p>
+    </footer>
+</body>
+</html>

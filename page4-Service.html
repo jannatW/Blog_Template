@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Service page</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: rgb(17, 80, 132);
+            color: white;
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .footer {
+            background-color:rgb(2, 49, 88);;;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+        <div class="icon">
+            <h2 class="logo">FitZone</h2>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a  href="page1-index.html">Home</a></li>
+                <li><a  href="page2-about.html">About </a></li>
+                <li><a href="page3-blog.html">Blog</a></li>
+                <li><a class="active" href="page4-service.html">Service</a></li>
+                <li><a href="page5-contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        
+    </nav>
+</header>
+    <div class="main">
+    <div class="about-section">
+        <p>Welcome to FitZone, the gateway to your holistic wellness voyage. Step into our realm, where we invite you to embark on a journey towards physical vitality and mental vigor. Delve into our mission, embrace the inclusivity ingrained in our ethos, and indulge in meticulously crafted experiences tailored to every step of your fitness evolution. Join us in this inaugural expedition of FitZone—a sanctuary transcending mere gym status, granting entry to a lifestyle defined by advancement and satisfaction.</p>
+    </div>
+
+    
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="images/img3.jpeg" alt="Exercise Instruments" style="width:100%">
+                <div class="container">
+                    <h2>Exercise Instruments</h2>
+                    <p><button class="button">Learn More</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="images/img4.jpeg" alt="Physical Exercise" style="width:100%">
+                <div class="container">
+                    <h2>Physical Exercise</h2>
+                    <p><button class="button">Learn More</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="images/img5.jpeg" alt="Healthy Food" style="width:100%">
+                <div class="container">
+                    <h2>Healthy Food</h2>
+                    <p><button class="button">Learn More</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <p>© 2024  Smashing Websites Ltd.  | STU170991 | Noemi Bucur</p>
+</footer>
+
+</body>
+</html>
